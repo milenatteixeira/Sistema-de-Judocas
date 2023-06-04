@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.fpij.jitakyoei.model.beans.Endereco;
 
-public class EnderecoTest {
+public class TestEndereco {
     @Test
 	public void cepComLetraTest() {
 		// initial setup
