@@ -10,7 +10,8 @@ public class Endereco {
 	String cidade;
 	String estado;
 	String cep;
-	
+        
+        @Override	
 	public String toString(){
 		return "\nRua: "+rua+
 				"\nNumero: "+numero+
