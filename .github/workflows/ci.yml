@@ -6,8 +6,7 @@ permissions:
   checks: write
 
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
     branches:
       - 'master'
 
