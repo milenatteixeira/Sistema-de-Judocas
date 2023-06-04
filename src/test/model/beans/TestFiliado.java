@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.fpij.jitakyoei.model.beans.Filiado;
 
-public class FiliadoTest {
+public class TestFiliado {
     
     @Test
 	public void emailValidoTest() {

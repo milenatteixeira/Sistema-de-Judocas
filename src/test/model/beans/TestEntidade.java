@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.fpij.jitakyoei.model.beans.Entidade;
 
-public class EntidadeTest {
+public class TestEntidade {
     @Test
     public void verificarTamanhoCNPJTest() {
         // Initial setup

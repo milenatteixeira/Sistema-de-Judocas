@@ -4,8 +4,7 @@ import org.fpij.jitakyoei.model.beans.Rg;
 import org.junit.Test;
 
 
-public class RgTest
-{
+public class TestRg{
     @Test
     public void inserirRgValidoTest() {
         Rg rg_teste = new Rg();        
