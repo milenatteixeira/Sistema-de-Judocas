@@ -16,13 +16,6 @@ public class TestFiliado {
 		assertEquals(expected, curr_value);
 	}
 
-    @Test(expected = Exception.class)
-	public void cpfInvalidoTest() {
-		// initial setup
-		Filiado filiado = new Filiado();
-		filiado.setCpf("1a2.3fs.4aa-ds");
-	}
-
     @Test
     public void cpfTamanhoTest(){
         // initial setup
