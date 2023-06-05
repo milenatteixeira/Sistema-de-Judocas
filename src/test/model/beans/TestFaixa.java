@@ -1,3 +1,7 @@
+package model.beans;
+import org.fpij.jitakyoei.model.beans.*;
+import org.fpij.jitakyoei.util.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.Date;

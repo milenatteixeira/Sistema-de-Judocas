@@ -1,3 +1,6 @@
+package model.beans;
+
+import org.fpij.jitakyoei.model.beans.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -31,7 +34,7 @@ public class TestAluno {
     public void testCopyProperties() {
         Aluno aluno1 = new Aluno();
         Filiado filiado1 = new Filiado();
-        filiado1.setId(1);
+        filiado1.setId(1L);
         filiado1.setNome("João");
         aluno1.setFiliado(filiado1);
         Entidade entidade1 = new Entidade();
@@ -41,7 +44,7 @@ public class TestAluno {
         
         Aluno aluno2 = new Aluno();
         Filiado filiado2 = new Filiado();
-        filiado2.setId(2);
+        filiado2.setId(2L);
         filiado2.setNome("Maria");
         aluno2.setFiliado(filiado2);
         Entidade entidade2 = new Entidade();
