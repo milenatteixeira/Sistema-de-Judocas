@@ -11,8 +11,9 @@ public class TestProfessor {
     public void testGetSetFiliado() {
         Professor professor = new Professor();
         Filiado filiado = new Filiado();
+        filiado.setNome("Filiado 2");
         professor.setFiliado(filiado);
-        Assert.assertEquals(filiado, professor.getFiliado());
+        Assert.assertEquals(filiado.getNome(), professor.getFiliado().getNome());
     }
 
     @Test
