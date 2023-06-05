@@ -85,7 +85,7 @@ public class TestFiliado {
     public void testGetSetRg() {
         Filiado filiado = new Filiado();
         Rg rg = new Rg();
-        rg.setId(1L);
+        rg.setNumero("1");
         filiado.setRg(rg);
         Assert.assertEquals(rg, filiado.getRg());
     }
