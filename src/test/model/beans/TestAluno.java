@@ -10,7 +10,7 @@ public class TestAluno {
     public void testGetSetFiliado() {
         Aluno aluno = new Aluno();
         Filiado filiado = new Filiado();
-        filiado.setId(1L)
+        filiado.setId(1L);
         aluno.setFiliado(filiado);
         Assert.assertEquals(filiado, aluno.getFiliado());
     }
